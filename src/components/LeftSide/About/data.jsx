@@ -13,7 +13,7 @@ const AboutContent = [
     paragraph2:
       "FOCUS: CTA, ABOUT, CONTACT... From here, we would discuss your website goals, needs, and ways to use your brand to provide value",
     paragraph3:
-      "Some even found it overwhelming to think about- buying websites and maintaining an online presence.... all on top of everything else! Here's where I can help... With my services, you will never have to think about these things ever again!",
+      "Some even found it overwhelming to think about- buying websites and maintaining an online presence.... all on top of everything else!! Here's where I can help... With my services, you will never have to think about these things ever again!",
   },
   {
     id: 2,
