@@ -1,15 +1,17 @@
+import Tagline from "../../Tagline";
 import content from "./data";
 
 const Work = () => {
   return (
-    <div className="mt-[250px] md:pt-[50px] pt-1">
+    <div className="md:mt-[250px] mt-[130px] md:pt-[50px] pt-0">
       <div className="flex lg:flex-row flex-col">
         {/* //todo: FIGURE OUT MOBILE HERO*/}
-        <span className="bg-test1 md:hidden block text-onyx text-3xl">
-          mobile hero here!
-        </span>
 
-        <h2 className="text-4xl font-bold">About</h2>
+        <div className="md:hidden block text-onyx md:my-0 my-5">
+          <Tagline />
+        </div>
+
+        <h2 className="text-4xl font-bold md:pt-0 pt-[150px]">About</h2>
         <p className="text-lg lg:mb-[40px] mb-1 lg:ml-2 ml-1 lg:pt-2.5 pt-0">
           -how it works!
         </p>
