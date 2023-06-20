@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="px-5 bg-orange-900">
+    <div className="px-5">
       <h1 className="text-[105px] py-5">Laughing Coyote Dev</h1>
       <div className="border-black border-y-2 pl-5 text-2xl py-5 mr-5 flex flex-col">
         <a href="/#about">about</a>

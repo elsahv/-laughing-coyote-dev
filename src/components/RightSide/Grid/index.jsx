@@ -3,7 +3,7 @@ import content from "./data";
 const Gallery = () => {
   return (
     <div>
-      <div id="gallery" className="pb-[100px]">
+      <div id="gallery" className="pt-5 pb-[100px]">
         <section className="flex flex-col pb-[150px]">
           <div className="mb-5 w-full  pl-5 pb-3">
             {/* <h2 className="_textShadow font-bold text-4xl pt-[50px] pb-5">
@@ -15,9 +15,9 @@ const Gallery = () => {
             <>
               {content.map((item, index) => (
                 <div className="px-5" key={index}>
-                  {/* <h2 className="text-2xl text-onyx drop-shadow-lg p-2">
-                    {item.title}
-                  </h2> */}
+                  <h2 className="text-2xl text-aquamarine drop-shadow-lg p-2">
+                    ({item.id}) {item.title}
+                  </h2>
                   <img
                     src={item.image}
                     alt=""

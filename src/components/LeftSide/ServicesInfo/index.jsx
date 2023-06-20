@@ -3,15 +3,15 @@ import content from "./data";
 const Services = () => {
   return (
     <div>
-      <div className="main_grid text-onyx">
+      <div className=" text-onyx">
         {/* //*LEFT SQ */}
-        <section className="left-sq pt-[80px] border-r-2">
-          <div className=" mb-[50px] 2xl:mx-5 2xl:px-5 sm:px-1 sm:mx-1">
+        <section className="pt-[80px] border-r-2">
+          <div className=" mb-[50px]">
             <h2 className="text-black font-bold text-2xl mb-5">
               So why should you bother with a website? What can a website do for
               your business?
             </h2>
-            <div className="my-5 _textShadow">
+            <div className="my-5">
               <p className="text-lg pl-1 py-2">
                 -A website provides a platform for small businesses to showcase
                 their products or services to a wider audience.
@@ -36,12 +36,12 @@ const Services = () => {
         </section>
 
         {/* //*RIGHT SQ */}
-        <section className="right-sq">
-          <div className="py-5b ">
+        <section className="">
+          <div className="">
             <h2 className="font-bold text-onyx text-2xl mt-5 text-center underline ">
               Services Offered:
             </h2>
-            <div className="grid 2xl:grid-cols-3 gap-4 md:grid-cols-2 sm:grid-cols-1 px-5 mt-5 ">
+            <div className="grid 2xl:grid-cols-3 gap-4 md:grid-cols-2 sm:grid-cols-1 py-5">
               {content.map((item, index) => (
                 <div
                   key={index}

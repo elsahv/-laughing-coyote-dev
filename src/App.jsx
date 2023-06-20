@@ -7,10 +7,13 @@ import RightSide from "./components/RightSide/index.jsx";
 function App() {
   return (
     <div className="flex">
-      <section className="h-screen bg-teal-700 absolute left-0 w-2/5 overflow-y-scroll">
+      <section
+        id="left-side"
+        className="bg-parchment h-screen absolute left-0 w-2/5 overflow-y-scroll"
+      >
         <Header />
 
-        <div className="bg-orange-300 px-5 mx-5">
+        <div className="px-5 mx-5">
           <div id="about" className="my-5">
             <About />
           </div>
