@@ -10,6 +10,7 @@ const GalleryContent = [
     image: Eh,
     paragraph1:
       "- Small business, San Bernardino CA.    Lorem ips facilis dolorem magnam iusto dolorum saepe rerum quasi consectetur, fuga aperiam. Quas inventore facilis accusamus dicta at esse incidunt recusandae!",
+    url: "https://google.com",
   },
   {
     id: 2,
@@ -17,6 +18,7 @@ const GalleryContent = [
     image: Roof,
     paragraph1:
       "- Small business, Redlands CA.    Lorem ipsum dol saepe rerum quasi consectetur, fuga aperiam. Quas inventore facilis accusamus dicta at esse incidunt recusandae!",
+    url: "https://hoveyroofing.com",
   },
 ];
 

@@ -15,17 +15,19 @@ const Gallery = () => {
             <>
               {content.map((item, index) => (
                 <div className="px-5" key={index}>
-                  <h2 className="text-2xl text-aquamarine drop-shadow-lg p-2 border-0">
-                    ({item.id}) {item.title}
-                  </h2>
-                  <img
-                    src={item.image}
-                    alt=""
-                    className="drop-shadow-lg border border-black"
-                  />
-                  {/* <p className="text-onyx drop-shadow-lg p-2">
+                  <a href={item.url}>
+                    <h2 className="text-2xl text-aquamarine drop-shadow-lg p-2 border-0">
+                      ({item.id}) {item.title}
+                    </h2>
+                    <img
+                      src={item.image}
+                      alt=""
+                      className="drop-shadow-lg border border-black"
+                    />
+                    {/* <p className="text-onyx drop-shadow-lg p-2">
                     {item.paragraph1}
                   </p> */}
+                  </a>
                 </div>
               ))}
             </>
