@@ -3,10 +3,10 @@ import ContactForm from "./ContactForm";
 const Contact = () => {
   return (
     <div>
-      <div id="contact" className="">
+      <div id="contact" className="h-screen">
         {/* //*LEFT SIDE */}
 
-        <section className="pt-[50px]">
+        <section className="pt-[100px]">
           <h2 className="text-3xl text-onyx">Contact</h2>
           <div className="text-onyx">
             <p className="text-lg">

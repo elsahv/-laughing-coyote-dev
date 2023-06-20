@@ -1,13 +1,13 @@
-import Jungle from "../../../assets/screenshots/jungle.png";
-import RQ from "../../../assets/screenshots/rq.png";
-import WTBH from "../../../assets/screenshots/wtbh.png";
-import Eh from "../../../assets/screenshots/eh.png";
+import One from "../../../assets/filler/one.jpg";
+import Two from "../../../assets/filler/two.jpg";
+import Three from "../../../assets/filler/three.jpg";
+import Four from "../../../assets/filler/four.jpg";
 
 const AboutContent = [
   {
     id: 1,
     title: "Initial Consultation",
-    image: Jungle,
+    image: One,
     paragraph1:
       "Starting with a phone interview, I take the time to get to know about your business, brand, and website needs. Book now!",
     paragraph2:
@@ -18,7 +18,7 @@ const AboutContent = [
   {
     id: 2,
     title: "Web Design/ UX Layout",
-    image: RQ,
+    image: Two,
     paragraph1:
       "  With your business needs in mind, I start designing a mockup layout.",
     paragraph2:
@@ -29,7 +29,7 @@ const AboutContent = [
   {
     id: 3,
     title: "Web Development",
-    image: WTBH,
+    image: Three,
     paragraph1:
       "The most exciting phase! Here, we have our final review and Q&A",
     paragraph2:
@@ -39,7 +39,7 @@ const AboutContent = [
   {
     id: 4,
     title: "Launch to Live!",
-    image: Eh,
+    image: Four,
     paragraph1:
       "The most exciting phase! Here, we have our final review and Q&A",
     paragraph2:

@@ -4,7 +4,7 @@ const RightSide = () => {
   return (
     <section
       id="right-side"
-      className="h-screen bg-onyx absolute right-0 w-3/5 overflow-y-scroll p-5"
+      className="h-screen bg-onyx md:absolute relative right-0 md:w-3/5 w-full overflow-y-scroll p-5"
     >
       <div className="mt-[150px] w-3/4 mx-5 px-5">
         <span className="text-parchment text-3xl">

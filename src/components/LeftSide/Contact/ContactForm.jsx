@@ -110,7 +110,7 @@ const ContactForm = () => {
         />
         {/*//* BUTTON */}
         <input
-          className="border border-munsell w-[90px] mt-5 bg-parchment rounded-md px-1 cursor-pointer hover:bg-aquamarine hover:text-cerulean"
+          className="border-2 border-onyx w-[90px] mt-5 bg-aquamarine rounded-md px-1 cursor-pointer hover:bg-aquamarine hover:text-cerulean"
           type="submit"
           value="send"
         />

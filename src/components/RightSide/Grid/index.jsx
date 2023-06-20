@@ -15,7 +15,7 @@ const Gallery = () => {
             <>
               {content.map((item, index) => (
                 <div className="px-5" key={index}>
-                  <h2 className="text-2xl text-aquamarine drop-shadow-lg p-2">
+                  <h2 className="text-2xl text-aquamarine drop-shadow-lg p-2 border-0">
                     ({item.id}) {item.title}
                   </h2>
                   <img

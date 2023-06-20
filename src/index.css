@@ -4,9 +4,16 @@
 
 html{
     font-family: 'Cormorant Garamond', serif;
+    color: #35373d;
  }
  
-
+h2 {
+  color: #000;
+  text-decoration: underline;
+}
+h3 {
+  color: #000
+}
 
 
 /* //*CONTACT FORM */
@@ -17,7 +24,7 @@ html{
   
   /* //*FORM INPUT STYLES */
   .form-input {
-    border: 2px solid #007ba5;
+    border: 2px solid #000;
     width: 100%;
     border-radius: 5px;
     padding: 5px 1px 5px 5px;
