@@ -3,7 +3,7 @@ import content from "./data";
 
 const Work = () => {
   return (
-    <div className="md:mt-[250px] mt-[130px] md:pt-[50px] pt-0">
+    <div className="mt-[250px] md:pt-[50px] pt-0">
       <div className="flex lg:flex-row flex-col">
         {/* //todo: FIGURE OUT MOBILE HERO*/}
 
