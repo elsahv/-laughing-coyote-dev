@@ -1,7 +1,7 @@
 const Header = () => {
   return (
-    <div className="md:block hidden px-5">
-      <h1 className="text-black 2xl:text-[105px] md:text-6xl text-4xl py-5">
+    <div className="md:block hidden px-5 2xl:pt-0 md:pt-[50px]">
+      <h1 className="text-black 2xl:text-[105px] md:text-6xl text-5xl py-5">
         Laughing Coyote Dev
       </h1>
       <div className="border-black border-y-2 pl-5 text-2xl py-5 mr-5 flex flex-col text-onyx">
