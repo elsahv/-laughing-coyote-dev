@@ -1,3 +1,5 @@
+// todo USE STATE- EACH LINK IS A BUTTON WHICH CONDITIONALLY SHOWS SECTION
+
 const Header = () => {
   return (
     <div className="md:block hidden px-5 2xl:pt-0 md:pt-[50px]">
