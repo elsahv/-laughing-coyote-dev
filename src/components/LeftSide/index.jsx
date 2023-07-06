@@ -25,7 +25,7 @@ const index = () => {
           </header>
         </TabList>
 
-        <div className="lg:px-5 lg:mx-5 md:px-3 md:mx-3 px-2 mx-2 snap-y snap-mandatory overflow-scroll z-0">
+        <div className="lg:px-5 lg:mx-5 md:px-3 md:mx-3 px-2 mx-2 snap-y snap-mandatory z-0">
           <TabPanels>
             <TabPanel>
               <About />
