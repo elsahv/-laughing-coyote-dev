@@ -8,7 +8,7 @@ const index = () => {
   return (
     <section
       id="left-side"
-      className="bg-parchment md:h-screen h-full md:absolute relative md:left-0 sm:bottom-0 md:w-2/5 w-full overflow-y-scroll"
+      className="bg-parchment md:h-screen h-full md:absolute relative md:left-0 sm:bottom-0 md:w-2/5 w-full overflow-y-scroll overflow-x-hidden"
     >
       <MobileMenu />
       <Tabs>
