@@ -1,7 +1,6 @@
 import About from "./About";
 import ServicesInfo from "./ServicesInfo";
 import Contact from "./Contact";
-// import MobileMenu from "./MobileMenu";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 
 const index = () => {
@@ -10,7 +9,6 @@ const index = () => {
       id="left-side"
       className="bg-parchment md:h-screen h-full md:absolute relative md:left-0 sm:bottom-0 md:w-2/5 w-full overflow-y-scroll overflow-x-hidden"
     >
-      {/* <MobileMenu /> */}
       <Tabs>
         <TabList>
           <nav className="px-5 2xl:pt-0 md:pt-[50px]">
@@ -21,12 +19,13 @@ const index = () => {
               <Tab>About</Tab>
               <Tab>Services</Tab>
               <Tab>Contact</Tab>
-              <div>Featured Works</div>
+              <a href="/#right-side" className="md:hidden block">
+                Featured Works
+              </a>
             </div>
           </nav>
         </TabList>
-
-        <div className="lg:px-5 lg:mx-5 md:px-3 md:mx-3 px-2 mx-2 snap-y snap-mandatory z-0">
+        <div className="lg:px-5 lg:mx-5 md:px-3 md:mx-3 px-2 mx-2 snap-y snap-mandatory z-0 md:block hidden">
           <TabPanels>
             <TabPanel>
               <About />
@@ -40,6 +39,13 @@ const index = () => {
           </TabPanels>
         </div>
       </Tabs>
+
+      {/* MOBILE SECTIONS */}
+      <div className="md:hidden block px-5">
+        <About />
+        <ServicesInfo />
+        <Contact />
+      </div>
     </section>
   );
 };

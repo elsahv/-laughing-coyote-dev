@@ -7,7 +7,7 @@ const Gallery = () => {
       <section className="flex flex-col pb-[150px]">
         <div className="mb-5 w-full pl-5 pb-3">
           <h2 className="md:hidden block font-bold text-3xl text-center text-parchment">
-            Featured Websites
+            Featured Works
           </h2>
         </div>
 
