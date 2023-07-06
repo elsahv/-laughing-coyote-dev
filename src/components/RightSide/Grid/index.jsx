@@ -15,12 +15,12 @@ const Gallery = () => {
           {content.map((item, index) => (
             <div className="lg:px-5 px-1 hover:opacity-50" key={index}>
               <a href={item.url} target="_blank" rel="noreferrer">
-                <div className="flex justify-around w-1/2 text-2xl md:text-left text-center drop-shadow-lg p-2 border-0 md:mt-[100px] mt-0">
+                <div className="flex md:1/2 w-full text-2xl md:text-left text-center drop-shadow-lg p-2 border-0 md:mt-[100px] mt-0">
                   <h2 className="text-aquamarine">
                     {item.icon}
                     {item.title}
                   </h2>
-                  <div className="pt-1 text-aquamarine ">
+                  <div className="pt-1 pl-2 text-aquamarine ">
                     <MdFileOpen />
                   </div>
                 </div>
