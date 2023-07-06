@@ -13,6 +13,10 @@ const Gallery = () => {
 
           <section className="mt-5 pt-5 md:px-3 px-1 grid 2xl:grid-cols-2 sm:grid-cols-1 gap-5">
             <>
+              {/* //todo */}
+              <></>
+              {/* //todo */}
+
               {content.map((item, index) => (
                 <div className="lg:px-5 px-1" key={index}>
                   <a href={item.url}>
@@ -24,9 +28,9 @@ const Gallery = () => {
                       alt=""
                       className="drop-shadow-lg border border-black"
                     />
-                    {/* <p className="text-onyx drop-shadow-lg p-2">
-                    {item.paragraph1}
-                  </p> */}
+                    <p className="text-parchment drop-shadow-lg p-2">
+                      {item.paragraph1}
+                    </p>
                   </a>
                 </div>
               ))}

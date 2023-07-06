@@ -8,16 +8,14 @@ const GalleryContent = [
     id: 1,
     title: "IE- Backflow ",
     image: Eh,
-    paragraph1:
-      "- Small business, San Bernardino CA.    Lorem ips facilis dolorem magnam iusto dolorum saepe rerum quasi consectetur, fuga aperiam. Quas inventore facilis accusamus dicta at esse incidunt recusandae!",
+    paragraph1: "- Website for small business, San Bernardino CA.",
     url: "https://google.com",
   },
   {
     id: 2,
     title: "HoveyRoofing",
     image: Roof,
-    paragraph1:
-      "- Small business, Redlands CA.    Lorem ipsum dol saepe rerum quasi consectetur, fuga aperiam. Quas inventore facilis accusamus dicta at esse incidunt recusandae!",
+    paragraph1: "- Website for small business, Redlands CA.",
     url: "https://hoveyroofing.com",
   },
 ];

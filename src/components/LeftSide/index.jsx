@@ -1,25 +1,46 @@
-import Header from "./Header";
 import About from "./About";
-import Services from "./Services";
+import ServicesInfo from "./ServicesInfo";
 import Contact from "./Contact";
+import MobileMenu from "./MobileMenu";
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 
-const LeftSide = () => {
+const index = () => {
   return (
-    <section className="h-screen bg-parchment w-2/5 overflow-y-scroll">
-      <Header />
-      <div className="px-5 mx-5">
-        <div className="my-5 absolute left-0 z-10">
-          <About />
+    <section
+      id="left-side"
+      className="bg-parchment md:h-screen h-full md:absolute relative md:left-0 sm:bottom-0 md:w-2/5 w-full overflow-y-scroll"
+    >
+      <MobileMenu />
+      <Tabs>
+        <TabList>
+          <header className="md:block hidden px-5 2xl:pt-0 md:pt-[50px]">
+            <h1 className="text-black 2xl:text-[105px] md:text-6xl text-5xl py-5">
+              Laughing Coyote Dev
+            </h1>
+            <div className="border-black border-y-2 pl-5 text-2xl py-5 mr-5 l text-onyx justify-start">
+              <Tab>About</Tab>
+              <Tab>Services</Tab>
+              <Tab>Contact</Tab>
+            </div>
+          </header>
+        </TabList>
+
+        <div className="lg:px-5 lg:mx-5 md:px-3 md:mx-3 px-2 mx-2 snap-y snap-mandatory overflow-scroll z-0">
+          <TabPanels>
+            <TabPanel>
+              <About />
+            </TabPanel>
+            <TabPanel>
+              <ServicesInfo />
+            </TabPanel>
+            <TabPanel>
+              <Contact />
+            </TabPanel>
+          </TabPanels>
         </div>
-        <div className="my-5">
-          <Services />
-        </div>
-        <div className="my-5">
-          <Contact />
-        </div>
-      </div>
+      </Tabs>
     </section>
   );
 };
 
-export default LeftSide;
+export default index;
