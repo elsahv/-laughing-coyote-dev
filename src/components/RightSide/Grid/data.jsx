@@ -8,14 +8,15 @@ const GalleryContent = [
     id: 1,
     title: "IE- Backflow ",
     image: Eh,
-    paragraph1: "- Website for small business, San Bernardino CA.",
+    paragraph1:
+      "- view website for small business, located in San Bernardino CA.",
     url: "https://google.com",
   },
   {
     id: 2,
     title: "HoveyRoofing",
     image: Roof,
-    paragraph1: "- Website for small business, Redlands CA.",
+    paragraph1: "- view website for small business, located in Redlands CA.",
     url: "https://hoveyroofing.com",
   },
 ];
