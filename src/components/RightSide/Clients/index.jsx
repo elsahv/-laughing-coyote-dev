@@ -1,21 +1,18 @@
 import content from "./data";
 import { MdFileOpen } from "react-icons/md";
 
-const Gallery = () => {
+const Clients = () => {
   return (
     <div id="gallery" className="pt-5 pb-[100px]">
-      <section className="flex flex-col pb-[150px]">
-        <div className="mb-5 w-full pl-5 pb-3">
-          <h2 className="md:hidden block font-bold text-3xl text-center text-parchment">
-            Featured Works
-          </h2>
-        </div>
-
-        <section className="mt-5 pt-5 md:px-3 px-1 grid 2xl:grid-cols-2 sm:grid-cols-1 gap-5">
+      <div className="flex flex-col pt-[280px] pb-[150px]">
+        <h2 className="font-bold text-3xl text-left text-parchment h-[100%] pb-5 pl-5">
+          - Featured Clients -
+        </h2>
+        <div className="md:px-3 px-1 grid 2xl:grid-cols-2 sm:grid-cols-1 gap-5">
           {content.map((item, index) => (
             <div className="lg:px-5 px-1 hover:opacity-50" key={index}>
               <a href={item.url} target="_blank" rel="noreferrer">
-                <div className="flex md:1/2 w-full text-2xl md:text-left text-center drop-shadow-lg p-2 border-0 md:mt-[100px] mt-0">
+                <div className="flex md:1/2 w-full text-2xl md:text-left text-center drop-shadow-lg p-2 border-0">
                   <h2 className="text-aquamarine">
                     {item.icon}
                     {item.title}
@@ -36,10 +33,10 @@ const Gallery = () => {
               </a>
             </div>
           ))}
-        </section>
-      </section>
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Gallery;
+export default Clients;
